@@ -12,7 +12,7 @@ public:
     ~FeaturePoint(){};
     void addMeasure(Eigen::Vector2d&measure,int frame_id);
     Eigen::Vector2d latestMeasure();
-private:
+public:
     /**@brief a feature is tracked along many frames,[int] is the frame id. **/
     std::map<int,Eigen::Vector2d> measuremnets;
 };
