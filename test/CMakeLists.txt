@@ -2,3 +2,6 @@ set(CMAKE_CXX_STANDARD 11)
 
 add_executable(test_feature_track test_feature_track.cpp)
 target_link_libraries(test_feature_track  BundleSLAM)
+
+add_executable(test_initial_construct test_initial_construct.cpp)
+target_link_libraries(test_initial_construct  BundleSLAM)

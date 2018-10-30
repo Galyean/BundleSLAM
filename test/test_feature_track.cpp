@@ -11,10 +11,10 @@
 #include "EurocIO.hpp"
 #include "FeatureTrack.h"
 
-
 using namespace std;
+
 int main(){
-    const string euroc_dir = "/home/galyean/new_work_space/MH_01_easy/";
+    const string euroc_dir = "D:/e_data/EuRoC_MAV/MH_01_easy/";
     std::map<double,string> image_files;
     utility::Euroc_io::loadImgs(euroc_dir,image_files);
 
